@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to world of Dogs</title>
+    <style>
+        nav{
+           display: flex;
+           flex-direction: row;
+           justify-content: center;
+       }
+       ul{
+           text-align: center;
+          
+       }
+       li{
+           list-style-type: none;
+           display: inline;
+           margin: 0 10px;
+       }
+       
+   </style>
+</head>
+<body>
+    <!--INTRODUCTION TO SEMENTIC HTML-->
+    <!--Logo, Navigation bar, Header banner and other stuff-->
+    <header>
+        <h1><CENTER>HushDogs</CENTER></h1>
+        <nav>
+            <ul>
+                <li><a href="./Index.html" target="_self">Home</a></li>
+                <li><a href="./About.html" target="_self">About Us</a></li>
+                <li><a href="./Breeds.html" target="_self">Breeds</a></li>
+                <li><a href="./ContactUs.html" target="_self">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <!--This is where the main content goes-->
+    <main>
+        <h1>Contact Us</h1>
+       
+        <form id="contact" action="#" method="post" style="max-width: 400px; margin: 0;">
+            <label for="FirstName">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter your name" required>
+            <br>
+            <br>
+            <label for="LastName">Last Name</label>
+            <input type="text" id="lname" name="lastName" placeholder="Enter your surname" required>
+            <br>
+            <br>
+            <label for="Email">Email</label>
+            <input type="text" id="emain" name="email" placeholder="Place enter your valid email" required>
+            <br>
+            <br>
+            <label for="Subject">Subject</label>
+            <input type="text" id="subjext" name="subject" placeholder="Enter email subject" required>
+            <br>
+            <br>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Enter email" style="width: 300px; height: 100px;" required></textarea>
+            <br>
+            <br>
+            <input type="button" value="Send">
+            <input type="button" value="Cancel">
+    
+        </form>
+ 
+
+    </main>
+    <hr>
+    <!--Copyright details, menu links, social media links, contact details goes here-->
+    <footer>
+        <p>Contact Us at +94 077 567278</p>
+
+        <small>&copy; 2024 APIIT Kandy. All right reserved</small>
+
+    </footer>
+</body>
+</html>
